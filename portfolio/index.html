@@ -1,140 +1,375 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio – Christian Brepoels</title>
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="../CSS/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio — Christian Brepoels</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../CSS/style.css" />
 </head>
 <body>
 
-<!-- ===== HEADER ===== -->
+<!-- NAV -->
 <header id="header">
     <div class="container">
+        <a class="logo" href="#">Christian <span>Brepoels</span></a>
+        <button class="nav-toggle" aria-label="Menu">☰</button>
         <nav>
-            <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="index.html" class="active">Portfolio</a></li>
+            <ul id="nav-list">
+                <li><a href="#about">Over mij</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projecten</a></li>
+                <li><a href="#wpl2">WPL2</a></li>
+                <li><a href="#hobbies">Hobby's</a></li>
+                <li><a href="#wpl-opdrachten">WPL Opdrachten</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <div class="header-text fade-in">
-            <h1>Portfolio DVO</h1>
-            <p>Situering & Eindreflectie WPL1</p>
-        </div>
     </div>
 </header>
 
-<main class="container">
+<!-- HERO -->
+<section id="hero">
+    <div class="container">
+        <div class="hero-inner">
+            <div class="hero-text reveal">
+                <div class="hero-eyebrow">Digitale Vormgeving · PXL</div>
+                <h1>Christian<br><em>Brepoels</em></h1>
+                <p class="hero-sub">Game Developer, Grafisch Designer &amp; Programmeur — creatief aan de slag met ontwerp en technologie.</p>
+                <div class="btn-group">
+                    <a href="#projects" class="btn btn-primary">Bekijk mijn werk</a>
+                    <a href="#contact" class="btn btn-outline">Contact</a>
+                </div>
+            </div>
+            <div class="hero-photo reveal">
+                <div class="photo-frame">
+                    <img src="../Assets/cb.png" alt="Christian Brepoels" />
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- ===== SITUERING BINNEN PROFIEL DVO ===== -->
-    <section id="situering-dvo" class="fade-in">
-        <h2>Situering binnen Profiel DVO</h2>
-        <p>Hier laat ik kort zien hoe ik bezig ben met de 12 leerdoelen van de digitale vormgever.</p>
-        <p>Per rol vertel ik hoe ver ik al sta en geef ik enkele voorbeelden van projecten die ik heb gemaakt.</p>
+</section>
 
-        <h3>Creatieve Vormgever</h3>
-        <p>Ik ben een creatief persoon en zoek graag naar nieuwe ideeën. Ik vind het leuk om ontwerpen te maken die er goed uitzien en duidelijk zijn voor de gebruiker. In mijn projecten werk ik veel met Figma, Photoshop en Illustrator om visuals en interfaces te maken.</p>
+<div class="divider"></div>
 
-        <h3>Front-end Ontwikkelaar</h3>
-        <p>Ik kan mijn ontwerpen ook technisch uitwerken in HTML, CSS en een beetje JavaScript. Ik probeer mijn websites gebruiksvriendelijk te maken en werk stap voor stap. Als iets niet werkt, zoek ik naar oplossingen of pas ik mijn code aan op feedback.</p>
+<!-- ABOUT -->
+<section id="about">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-img-wrap reveal">
+                <div class="about-img">
+                    <img src="../Assets/cb.png" alt="Christian Brepoels" />
+                </div>
+            </div>
+            <div class="about-content reveal">
+                <div class="section-label">Over mij</div>
+                <h2>Hallo, ik ben<br>Christian.</h2>
+                <p>Ik ben <strong>21 jaar</strong> en student <strong>Digitale Vormgeving</strong> aan PXL. Mijn passie ligt in het combineren van creatief ontwerp en technische skills — van een pixel-perfect interface in Figma tot een werkende game in Roblox Studio.</p>
+                <p>Ik werk dagelijks met tools als <strong>Figma, Illustrator, Photoshop, Canva</strong> en <strong>Blender</strong>. Op vlak van code beheers ik <strong>HTML, CSS, JavaScript</strong> en <strong>Lua</strong>.</p>
+                <p>Creativiteit, muziek en sport inspireren mij in alles wat ik doe. Ik koos voor Digitale Vormgeving omdat ik ideeën van concept tot werkende website of applicatie wil uitwerken.</p>
+                <div class="contact-chips">
+                    <a href="mailto:christianbrepoels@gmail.com" class="chip"><span>✉️</span>Gmail</a>
+                    <a href="https://www.linkedin.com/in/christian-brepoels-594571299/" target="_blank" class="chip"><span>💼</span>LinkedIn</a>
+                    <a href="https://www.instagram.com/christianbrepoels/" target="_blank" class="chip"><span>📷</span>Instagram</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-        <h3>Communicator / Teamspeler</h3>
-        <p>Ik communiceer duidelijk tijdens opdrachten en overlegmomenten. In groepswerken probeer ik altijd mee te denken en mijn ideeën te delen. Ik luister ook naar feedback van anderen en pas mijn werk aan waar nodig.</p>
+<div class="divider"></div>
 
-        <h3>Levenslang Lerende</h3>
-        <p>Ik wil mezelf blijven verbeteren en sta open om bij te leren. Ik probeer nieuwe tools en technieken uit en leer uit mijn fouten. Door projecten te maken merk ik waar ik sterker in word en waar ik nog op kan oefenen.</p>
-    </section>
+<!-- SKILLS -->
+<section id="skills">
+    <div class="container">
+        <div class="section-label reveal">Vaardigheden</div>
+        <h2 class="reveal">Mijn skills</h2>
+        <div class="skills-layout">
+            <div class="reveal">
+                <div class="skills-col-title">Design tools</div>
+                <div class="skill-item">
+                    <div class="skill-header"><span class="skill-name">Figma</span><span class="skill-pct">85%</span></div>
+                    <div class="bar-bg"><div class="bar-fill" data-w="85"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header"><span class="skill-name">Illustrator</span><span class="skill-pct">75%</span></div>
+                    <div class="bar-bg"><div class="bar-fill" data-w="75"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header"><span class="skill-name">Photoshop</span><span class="skill-pct">75%</span></div>
+                    <div class="bar-bg"><div class="bar-fill" data-w="75"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header"><span class="skill-name">Canva</span><span class="skill-pct">90%</span></div>
+                    <div class="bar-bg"><div class="bar-fill" data-w="90"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header"><span class="skill-name">Blender</span><span class="skill-pct">40%</span></div>
+                    <div class="bar-bg"><div class="bar-fill" data-w="40"></div></div>
+                </div>
+            </div>
+            <div class="reveal">
+                <div class="skills-col-title">Programmeren</div>
+                <div class="skill-item">
+                    <div class="skill-header"><span class="skill-name">HTML</span><span class="skill-pct">60%</span></div>
+                    <div class="bar-bg"><div class="bar-fill" data-w="60"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header"><span class="skill-name">CSS</span><span class="skill-pct">60%</span></div>
+                    <div class="bar-bg"><div class="bar-fill" data-w="60"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header"><span class="skill-name">JavaScript</span><span class="skill-pct">50%</span></div>
+                    <div class="bar-bg"><div class="bar-fill" data-w="50"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header"><span class="skill-name">Lua</span><span class="skill-pct">55%</span></div>
+                    <div class="bar-bg"><div class="bar-fill" data-w="55"></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <!-- ===== EINDREFLECTIE WPL1 ===== -->
-    <section id="eindreflectie" class="fade-in">
-        <h2>Eindreflectie WPL1</h2>
+<div class="divider"></div>
 
-        <h3>AIM-reflectie Werkplekleren 1</h3>
+<!-- PROJECTS -->
+<section id="projects">
+    <div class="container">
+        <div class="section-label reveal">Mijn werk</div>
+        <h2 class="reveal">Projecten</h2>
 
-        <p>
-            Tijdens Werkplekleren 1 heb ik gewerkt aan verschillende opdrachten binnen digitale vormgeving.
-            In deze periode heb ik mij beziggehouden met ontwerpen, webontwikkeling en eigen creatieve projecten.
-            WPL1 gaf mij een duidelijk beeld van wat er van mij verwacht wordt binnen de opleiding Digitale Vormgeving
-            en hoe ik mijn vaardigheden verder kan ontwikkelen. Ik heb geleerd om zelfstandiger te werken en om mijn
-            opdrachten stap voor stap aan te pakken.
-        </p>
+        <div class="cat-title reveal">Photoshop</div>
+        <div class="cards-grid reveal">
+            <article class="card">
+                <div class="card-img"><img src="../Assets/schoolproject1.png" alt="Photoshop project 1" /></div>
+                <div class="card-body">
+                    <h5>Project 1</h5>
+                    <p>Een Photoshop-ontwerp met twee personen centraal, gecombineerd met een groene achtergrond.</p>
+                    <span class="card-tag">Photoshop</span>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-img"><img src="../Assets/schoolproject2.png" alt="Photoshop project 2" /></div>
+                <div class="card-body">
+                    <h5>Project 2</h5>
+                    <p>Een strak en professioneel ontwerp waarbij beeld en tekst samenkomen.</p>
+                    <span class="card-tag">Photoshop</span>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-img"><img src="../Assets/schoolproject3.png" alt="Photoshop project 3" /></div>
+                <div class="card-body">
+                    <h5>Project 3</h5>
+                    <p>Visual van een persoon met laptop in een rustige groene compositie met grafische vormen.</p>
+                    <span class="card-tag">Photoshop</span>
+                </div>
+            </article>
+        </div>
 
-        <p>
-            Een positief element van Werkplekleren 1 was voor mij het dashboardproject.
-            Ik vond het leuk om te zien hoe een ontwerp stilaan vorm kreeg en uiteindelijk een mooi eindresultaat werd.
-            Ik had vooraf niet verwacht dat dit project zo goed zou lukken, wat mij extra motivatie gaf.
-            Een minder leuk onderdeel vond ik het starten met het coderen van mijn portfolio-website.
-            Coderen is niet mijn sterkste kant en vooral in het begin vond ik het moeilijk en soms frustrerend.
-        </p>
+        <div class="cat-title reveal">Illustrator</div>
+        <div class="cards-grid reveal">
+            <article class="card">
+                <div class="card-img"><img src="../Assets/harrypotter.png" alt="Harry Potter illustratie" /></div>
+                <div class="card-body">
+                    <h5>Harry Potter Illustratie</h5>
+                    <p>Een vectorillustratie van Harry Potter met een zelfgemaakte achtergrond in Illustrator.</p>
+                    <span class="card-tag">Illustrator</span>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-img"><img src="../Assets/ninjago.png" alt="Ninjago illustratie" /></div>
+                <div class="card-body">
+                    <h5>Ninjago Illustratie</h5>
+                    <p>Sensei Wu uit Lego Ninjago, met de vier elementen (vuur, ijs, aarde, bliksem) als achtergrond.</p>
+                    <span class="card-tag">Illustrator</span>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-img"><img src="../Assets/mylittlepony.png" alt="My Little Pony illustratie" /></div>
+                <div class="card-body">
+                    <h5>My Little Pony Illustratie</h5>
+                    <p>Volledig zelf getekend met de pentool — vrolijke kleuren en creatieve vormen.</p>
+                    <span class="card-tag">Illustrator</span>
+                </div>
+            </article>
+        </div>
 
-        <p>
-            Door Werkplekleren 1 heb ik nieuwe inzichten gekregen over hoe belangrijk een goede planning is.
-            Ik merkte dat wanneer ik mijn werk beter voorbereidde, alles vlotter verliep.
-            Ook heb ik geleerd dat feedback vragen aan klasgenoten en leerkrachten echt helpt om mijn werk te verbeteren.
-            Soms zag ik zelf fouten of verbeterpunten niet, maar door feedback kon ik mijn projecten duidelijk sterker maken.
-        </p>
+        <div class="cat-title reveal">Dashboard</div>
+        <div class="cards-grid reveal">
+            <article class="card">
+                <div class="card-img"><img src="../Assets/dashboard.png" alt="Dashboard project" /></div>
+                <div class="card-body">
+                    <h5>Dashboard Web</h5>
+                    <p>Een dashboard ontworpen in Figma dat visueel ontwerp combineert met functionaliteit.</p>
+                    <span class="card-tag">Figma</span>
+                </div>
+            </article>
+        </div>
 
-        <p>
-            Wat ik meeneem naar Werkplekleren 2 is dat ik gestructureerder wil werken en sneller hulp durf vragen
-            wanneer iets niet lukt. Ik wil mijn technische vaardigheden verder verbeteren, vooral op vlak van coderen,
-            en blijven werken aan mijn creativiteit. In WPL2 wil ik proberen om minder te twijfelen en meer vertrouwen
-            te hebben in mijn eigen werk.
-        </p>
+        <div class="cat-title reveal">Eigen Projecten</div>
+        <div class="cards-grid reveal">
+            <article class="card">
+                <div class="card-img"><img src="../Assets/roblox.png" alt="Roblox project" /></div>
+                <div class="card-body">
+                    <h5>The Ultimate Obby</h5>
+                    <p><strong>Work in progress</strong> — een interactieve parcoursgame in Roblox Studio, met Lua-scripting voor checkpoints, UI en gameplay-logica.</p>
+                    <span class="card-tag">Roblox Studio · Lua</span>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-img"><img src="../Assets/musicclef.png" alt="Music project" /></div>
+                <div class="card-body">
+                    <h5>Music Project</h5>
+                    <p><strong>Work in progress</strong> — compositie van eigen muziek met MuseScore Studio, arrangementen en experimenten met instrumenten.</p>
+                    <span class="card-tag">MuseScore</span>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
 
-        <p>
-            Waar ik het meest trots op ben, is dat mijn portfolio-website uiteindelijk goed gelukt is en volledig werkt.
-            Ondanks de moeilijkheden bij het coderen heb ik doorgezet en het project afgewerkt.
-            Dit voelt voor mij als een persoonlijk succes. Werkplekleren 1 heeft mij laten zien dat ik,
-            ook als iets moeilijk is, toch tot een goed resultaat kan komen door te blijven oefenen en niet op te geven.
-        </p>
+<div class="divider"></div>
 
-        <h3>Kernkwadrant</h3>
-        <p><strong>Kernkwaliteit:</strong> Betrouwbaar</p>
-        <p><strong>Valkuil:</strong> Teveel willen doen</p>
-        <p><strong>Uitdaging:</strong> Grenzen stellen</p>
-        <p><strong>Allergie:</strong> Onbetrouwbaar zijn</p>
+<!-- WPL2 -->
+<section id="wpl2">
+    <div class="container">
+        <div class="section-label reveal">Werkplekleren 2</div>
+        <h2 class="reveal">WPL2 Case</h2>
 
-        <p>
-            Tijdens WPL1 merkte ik dat ik betrouwbaar ben. Ik zorg dat mijn opdrachten netjes af zijn en dat anderen op mij kunnen rekenen.
-            Mijn valkuil is dat ik soms te veel wil doen en mezelf overbelast. In WPL2 wil ik leren beter mijn grenzen te stellen en
-            prioriteiten te kiezen, zodat ik efficiënter kan werken en niet opgebrand raak.
-            Ik wil mijn talenten zoals creativiteit en doorzettingsvermogen beter inzetten, en ik kan hulp vragen aan mijn lectoren
-            of feedback krijgen van klasgenoten om te leren hoe ik dit concreet kan aanpakken.
-        </p>
+        <div class="wpl2-tabs reveal">
+            <button class="tab-btn active" data-tab="case">Case</button>
+            <button class="tab-btn" data-tab="aandeel">Mijn aandeel</button>
+            <button class="tab-btn" data-tab="lessen">Wat ik leerde</button>
+            <button class="tab-btn" data-tab="resultaat">Resultaat</button>
+        </div>
 
-        <p>
-            Daarnaast wil ik in WPL2 ook nieuwe dingen leren, zoals beter coderen en sneller oplossingen vinden voor problemen.
-            Zo kan ik mezelf verder ontwikkelen en projecten nog beter afwerken.
-        </p>
+        <div id="tab-case" class="tab-panel active reveal">
+            <div class="wpl2-block">
+                <h4>Beschrijving van de case</h4>
+                <div class="placeholder-note">ℹ️ Hier komt de beschrijving van jouw WPL2 case (150–400 woorden). Stuur de tekst door en ik verwerk hem hier!</div>
+            </div>
+        </div>
+        <div id="tab-aandeel" class="tab-panel reveal">
+            <div class="wpl2-block">
+                <h4>Mijn aandeel</h4>
+                <div class="placeholder-note">ℹ️ Hier beschrijf je jouw persoonlijke bijdrage aan de case (150–400 woorden).</div>
+            </div>
+        </div>
+        <div id="tab-lessen" class="tab-panel reveal">
+            <div class="wpl2-block">
+                <h4>Wat ik heb geleerd</h4>
+                <p>Tijdens WPL2 heb ik verschillende nieuwe inzichten opgedaan. Zo heb ik geleerd om meer met grids te werken en meer aandacht te besteden aan details in mijn ontwerpen. Daarnaast heb ik ook handige tools leren gebruiken, zoals de componentenbibliotheek. Hierdoor kan ik in de toekomst sneller en efficiënter werken.</p>
+                <p>Wat ik persoonlijk als een succes zie, is dat we uiteindelijk een mooi eindresultaat hebben neergezet. Ik ben ook trots op mijn eigen bijdrage aan het project en op de manier waarop ik feedback heb verwerkt om mijn werk te verbeteren.</p>
+                <p>Verder hebben we tijdens het project regelmatig feedback gevraagd aan medestudenten, lectoren en begeleiders. Deze feedback heeft ons geholpen om verschillende onderdelen te verbeteren en verder uit te werken.</p>
+                <p>Uit mijn kernkwadranten neem ik mee dat ik mijn <strong>creativiteit</strong> als grote kracht heb, maar dat ik moet waken voor perfectionisme. Voor een volgende WPL wil ik sneller keuzes maken en efficiënter werken. Daarnaast wil ik beter leren plannen en <strong>prioriteiten stellen</strong> zodat ik mijn tijd nog efficiënter gebruik.</p>
+            </div>
+        </div>
+        <div id="tab-resultaat" class="tab-panel reveal">
+            <div class="wpl2-block">
+                <h4>Finaal resultaat &amp; deliverables</h4>
+                <p>Hieronder vind je de eindresultaten van WPL2.</p>
+                <ul class="deliverable-list">
+                    <li>Eindpresentatie (slides)</li>
+                    <li><a href="Eindreflectie_WPL2_CB.pdf" download="Eindreflectie_WPL2_CB.pdf" style="color:var(--rose);text-decoration:none;font-weight:600;">Eindreflectie WPL2 (PDF) →</a></li>
+                    <li>WPL1 Opdrachten (ZIP/PDF)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
 
-        <h3>Reflectie over X-factor</h3>
-        <p>Mijn X-factor bestaat uit vijf onderdelen: <strong>passie</strong>, <strong>ondernemend & innovatief</strong>, <strong>multi & disciplinariteit</strong>, <strong>internationaal samen(net)werken</strong> en <strong>duurzaam</strong> (centrale kern).</p>
+<div class="divider"></div>
 
-        <ul>
-            <li><strong>Passie:</strong> Ik zet mij volledig in voor mijn creatieve en technische projecten, zoals mijn Roblox-game en illustraties. Ik vind het leuk om nieuwe ideeën uit te proberen en mijn werk te verbeteren.</li>
-            <li><strong>Ondernemend & innovatief:</strong> Bij het maken van het Dashboard project en eigen ontwerpen heb ik zelf oplossingen gezocht, nieuwe tools geprobeerd en innovatieve ideeën toegepast.</li>
-            <li><strong>Multi & disciplinariteit:</strong> In projecten combineer ik design, coderen en muziek/compositie, waardoor ik op verschillende vlakken tegelijk werk en leer.</li>
-            <li><strong>Internationaal samen(net)werken:</strong> Bij groepsopdrachten en online projecten leer ik samenwerken met anderen, feedback geven en ontvangen, en kennis delen, zelfs buiten de klas of school.</li>
-            <li><strong>Duurzaam:</strong> Ik probeer bij alles wat ik doe aandacht te hebben voor lange termijn resultaat en kwaliteit, bijvoorbeeld door bestanden netjes op te slaan, feedback te gebruiken en mijn skills verder te ontwikkelen.</li>
-        </ul>
+<!-- HOBBIES -->
+<section id="hobbies">
+    <div class="container">
+        <div class="section-label reveal">Vrije sectie</div>
+        <h2 class="reveal">Hobby's &amp; Sport</h2>
+        <div class="hobbies-grid">
+            <div class="hobby-card reveal">
+                <div class="hobby-img"><img src="../Assets/muziek.png" alt="Muziek" /></div>
+                <div class="hobby-body">
+                    <h3>🎵 Muziek</h3>
+                    <p>Ik speel <strong>euphonium</strong> bij de Koninklijke Harmonie Sint-Cecilia Hoeselt en luister veel naar muziek.</p>
+                    <a href="https://www.harmoniehoeselt.be/" target="_blank">harmoniehoeselt.be →</a>
+                </div>
+            </div>
+            <div class="hobby-card reveal">
+                <div class="hobby-img"><img src="../Assets/football.png" alt="Voetbal" /></div>
+                <div class="hobby-body">
+                    <h3>⚽ Voetbal</h3>
+                    <p>Ik speel graag voetbal met vrienden en volg de topcompetities op de voet.</p>
+                </div>
+            </div>
+            <div class="hobby-card reveal">
+                <div class="hobby-img"><img src="../Assets/padel.png" alt="Padel" /></div>
+                <div class="hobby-body">
+                    <h3>🎾 Padel</h3>
+                    <p>In het weekend padelmatches met vrienden — sportief en gezellig tegelijk.</p>
+                </div>
+            </div>
+            <div class="hobby-card reveal">
+                <div class="hobby-img"><img src="../Assets/fitness.png" alt="Fitness" /></div>
+                <div class="hobby-body">
+                    <h3>💪 Fitness</h3>
+                    <p>Samen met een vriend leid ik <strong>The Pe4kers</strong>: wekelijks een special guest uitnodigen om mee te sporten, met een leaderboard op Instagram.</p>
+                    <a href="https://www.instagram.com/the_pe4kers/" target="_blank">@the_pe4kers →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-        <p>Deze X-factor laat zien hoe ik mijn talenten inzet, welke uitdagingen ik aanpak en hoe ik mijn vaardigheden combineer om projecten tot een goed resultaat te brengen.</p>
-    </section>
+<div class="divider"></div>
 
-</main>
+<!-- WPL OPDRACHTEN -->
+<section id="wpl-opdrachten">
+    <div class="container">
+        <div class="section-label reveal">Werkplekleren</div>
+        <h2 class="reveal">WPL1 &amp; WPL2</h2>
+        <div class="wpl-cards">
+            <div class="wpl-card reveal">
+                <span class="wpl-badge badge-wpl1">WPL1</span>
+                <h3>WPL1 Opdrachten</h3>
+                <p>Alle opdrachten van Werkplekleren 1, gebundeld als ZIP of PDF.</p>
+                <a href="#" class="btn btn-outline" style="font-size:.82rem;padding:9px 20px;">📦 Download ZIP/PDF</a>
+            </div>
+            <div class="wpl-card reveal">
+                <span class="wpl-badge badge-wpl2">WPL2</span>
+                <h3>Eindreflectie WPL2</h3>
+                <p>Mijn persoonlijke eindreflectie over Werkplekleren 2 als PDF.</p>
+                <a href="Eindreflectie_WPL2_CB.pdf" download="Eindreflectie_WPL2_CB.pdf" target="_blank" class="btn btn-outline" style="font-size:.82rem;padding:9px 20px;">📄 Download PDF</a>
+            </div>
+        </div>
+    </div>
+</section>
 
-<!-- ===== FOOTER ===== -->
-<footer class="fade-in">
-    <p>© 2026 Christian Brepoels | <a href="../privacy.txt">Privacy-richtlijnen</a> | <a href="index.html">Portfolio</a></p>
+<div class="divider"></div>
+
+<!-- CONTACT -->
+<section id="contact">
+    <div class="container">
+        <div class="section-label reveal">Bereikbaar via</div>
+        <h2 class="reveal">Contact</h2>
+        <p class="contact-sub reveal">Interesse in een samenwerking? Stuur gerust een bericht!</p>
+        <div class="social-row reveal">
+            <a href="https://mail.google.com/mail/?view=cm&to=christianbrepoels@gmail.com" target="_blank" class="social-btn">✉️ E-mail</a>
+            <a href="https://www.linkedin.com/in/christian-brepoels-594571299/" target="_blank" class="social-btn">💼 LinkedIn</a>
+            <a href="https://www.instagram.com/christianbrepoels/" target="_blank" class="social-btn">📷 Instagram</a>
+        </div>
+    </div>
+</section>
+
+<!-- SCROLL KNOP -->
+<button id="scroll-btn" aria-label="Scroll">↓</button>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Christian Brepoels &nbsp;·&nbsp; <a href="../privacy.txt">Privacy</a> &nbsp;·&nbsp; Made with ♥ &amp; HTML/CSS/JS</p>
 </footer>
 
-<!-- JS -->
 <script src="../JS/main.js"></script>
 </body>
 </html>
